@@ -1,7 +1,7 @@
 import { createArticle } from "../components/article/interface.ts";
 
 console.log(
-  createArticle("zekzekus", {
+  createArticle("zekzekus@gmail.com", {
     title: "The title",
     descrption: "The desc",
     body: "That body",
