@@ -1,1 +1,1 @@
-export { db, Bson } from "../../components/db-access/interface.ts";
+export { Bson, db } from "../../components/db-access/interface.ts";
