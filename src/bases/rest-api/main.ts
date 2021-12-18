@@ -1,4 +1,4 @@
-import { pogo, log } from "./deps.ts";
+import { log, pogo } from "./deps.ts";
 import { routes } from "./api.ts";
 
 const server = pogo.server({ port: 3000 });

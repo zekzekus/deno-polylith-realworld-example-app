@@ -1,4 +1,4 @@
-import { MongoClient } from './deps.ts';
+import { MongoClient } from "./deps.ts";
 
 const client = new MongoClient();
 
