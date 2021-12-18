@@ -1,1 +1,1 @@
-export { db } from "./core.ts";
+export { db, Bson } from "./core.ts";

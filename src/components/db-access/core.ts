@@ -1,4 +1,5 @@
 import { MongoClient } from "./deps.ts";
+export { Bson } from "./deps.ts";
 
 const client = new MongoClient();
 
