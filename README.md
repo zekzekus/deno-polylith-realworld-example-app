@@ -27,3 +27,20 @@ explaining my ideas to people already know some NodeJS.
   Typescript (I already can't at this point in time)
 - See what kind of a tooling would be nice
 - Consider developing a spec for polylith structure
+
+## As of now: 2021-12-19
+
+There are 3 components 2 bases and 2 projects. 2 projects means there are two
+independent artifacts as outputs. Project `realworld-api` includes 3 components
+and the `rest-api` base. Other project `realworld-cli` does include same
+components (it could be different set of components, doesn't matter) and
+`real-cli` base. So I can create two different executables likes this;
+
+```bash
+$ deno compile --allow-net -o api src/projects/realworld-api/deps.ts
+$ deno compile --allow-net -o cli src/projects/realworld-cli/deps.ts
+```
+
+Then I can distribute these to completely different places keeping the
+development experience in one place locally. Also reusability of the components
+is compelling.
